@@ -113,7 +113,12 @@ body.nofyosh.mobile .footer-sidebar .widget{margin-right: 0;}
 /*===========================*/
 /*Popups*/
 /*===========================*/
-body.nofyosh.mobile .popup_inr{border: none;}
+body.nofyosh.mobile .popup_inr{border: none; width: 100%;}
+body.nofyosh.mobile .popup_inr input,
+body.nofyosh.mobile .popup_inr label[for="checkbox-a"],
+body.nofyosh.mobile .popup_inr .account_text a{font-size: 2rem;}
+body.nofyosh.mobile .popup_inr label[for="checkbox-a"]{padding: 3px 20px 0 0;}
+
 body.nofyosh.mobile .popup_inr .popup_hdr{background: none; color: #000;}
 body.nofyosh.mobile .popup_inr .popup_fld{padding-top: 0;}
 
