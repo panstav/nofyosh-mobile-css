@@ -70,6 +70,7 @@ body.post-type-archive-zimer      #post-type-mobile-menu-cntr{ width: 5em; }
 body.post-type-archive-restaurant #post-type-mobile-menu-cntr{ width: 6.5em; }
 body.post-type-archive-event      #post-type-mobile-menu-cntr{ width: 6em; }
 body.post-type-archive-attraction #post-type-mobile-menu-cntr{ width: 7em; }
+body                              #post-type-mobile-menu-cntr{ width: 5em; }
 
 body.nofyosh.mobile .ui-widget-content{background-color: transparent;}
 .ui-menu.nav-menu:before {display: none;}
