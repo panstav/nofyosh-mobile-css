@@ -161,7 +161,7 @@ form.archive .archive-searchform-cntr.mobile .searchform-input-cntr{height: auto
 form.archive .archive-searchform-cntr.mobile .searchform-input-cntr.no-inline{float: none; display: block; width: 100%; padding: 10px 4px;}
 form.archive .archive-searchform-cntr.mobile .searchform-input-cntr.no-inline label{width: 100px; }
 form.archive .archive-searchform-cntr.mobile .searchform-input-cntr.no-inline input.hasDatepicker{ width: 150px; padding-right: 10px;}
-form.archive .archive-searchform-cntr.mobile .searchform-input-cntr.no-inline .selectboxit-container{width:35%;}
+form.archive .archive-searchform-cntr.mobile .searchform-input-cntr.no-inline .selectboxit-container{width: 12%;}
 form.archive .archive-searchform-cntr.mobile .searhform-submit-cntr{float: none; margin: 0 auto;}
 body.nofyosh #ui-datepicker-div{width:258px; left:28px !important;}
 body.nofyosh .ui-state-default,
