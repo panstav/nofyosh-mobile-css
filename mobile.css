@@ -1,0 +1,328 @@
+/*TEMP*/
+
+/*
+body.nofyosh .archive-searchform-cntr.mobile .ny-row.ny-row-select-cntr{height: 150px;}
+body.nofyosh form.archive .searchform-input-cntr{float: none; margin: 10px;}
+*/
+
+
+
+
+
+
+
+
+body.nofyosh.mobile{width: 100%;}
+@media only screen and (min-width:449px){
+	body.nofyosh.mobile{max-width: 450px; margin: 0 auto;border:solid #000; border-width: 0 1px;}
+}
+
+/*GENERAL*/
+body.nofyosh.mobile select,
+body.nofyosh.mobile select:focus,
+body.nofyosh.mobile textarea,
+body.nofyosh.mobile input[type="text"],
+body.nofyosh.mobile input[type="password"],
+body.nofyosh.mobile input[type="datetime"],
+body.nofyosh.mobile input[type="datetime-local"],
+body.nofyosh.mobile input[type="date"],
+body.nofyosh.mobile input[type="month"],
+body.nofyosh.mobile input[type="time"],
+body.nofyosh.mobile input[type="week"],
+body.nofyosh.mobile input[type="number"],
+body.nofyosh.mobile input[type="email"],
+body.nofyosh.mobile input[type="url"],
+body.nofyosh.mobile input[type="search"],
+body.nofyosh.mobile input[type="tel"],
+body.nofyosh.mobile input[type="color"] { font-size: 16px; }
+
+
+
+body.nofyosh.mobile #content{width: 100%;}
+body.nofyosh.page #page{background-color: transparent;}
+body.nofyosh.mobile .hasDatepicker{font-size: 18px; width:8em; height: auto;}
+
+/*Toggle*/
+body.mobile .ny-toggle-btn{  background-repeat:no-repeat; background-position: 50% center; font-size: 16px;}
+body.mobile .ny-toggle-close{  background-image: url("../images/mobile/left-arrow.png");}
+body.mobile .ny-toggle-open{  background-image: url("../images/mobile/down-arrow.png");}
+
+body.nofyosh.mobile .ui-datepicker.ui-widget-content{background-color: #fff;}
+
+/*=======================*/
+/*HEADER*/
+/*=======================*/
+body.mobile .header_outter{padding: 0 2% 1%; border-bottom: 1px solid #b7b7b7; height: 52px;}
+body.mobile .header_outter .container{height: auto;}
+body.mobile .header_outter .logo img{width: 70px;}
+
+.header-left-section-cntr.mobile{float: left; margin-top: 15px;}
+.header-left-section-cntr.mobile > div{float: left; padding: 0 9px 0 10px; font-size: 16px; color:#888; border-left: solid 1px #888;}
+.header-left-section-cntr.mobile > div:first-child{padding-left: 0; border-left: none; margin-top: -3px;}
+.header-left-section-cntr.mobile .popup-link{float: left; padding-left:8px; border-left: solid 1px #888;}
+.header-left-section-cntr.mobile > div > a{color: #888;}
+.header-left-section-cntr.mobile > div.inbox-link{padding-top: 1px;}
+#mobile-menu-logged-in-user > li {position: relative;}
+
+body.nofyosh.mobile .ui-widget-content{background-color: transparent;}
+.ui-menu.nav-menu:before {display: none;}
+ul#logged-in-user-nav-mobile.ui-menu{background-color: transparent; padding: 0;}
+
+
+ul#logged-in-user-nav-mobile.ui-menu .ui-menu-item a{padding:0; padding-left: 8px;}
+ul#logged-in-user-nav-mobile.ui-menu .ui-menu-item img{width:22px;}
+ul#logged-in-user-nav-mobile.ui-menu ul {background-color: rgba(0,0,0,0.75); padding: 4px 8px;}
+ul#logged-in-user-nav-mobile.ui-menu ul a{ color: #fff;}
+
+ul#logged-in-user-nav-mobile.ui-menu > li.ui-menu-item > a{ font-size: 14px; line-height: 1; }
+
+#post-type-mobile-menu-cntr > ul > li > a{color:#888; padding-right: 0; padding-left:10px; }
+#post-type-mobile-menu-cntr > ul > li > a img{width:25px;}
+
+/*menus*/
+body.mobile .ui-menu.ui-widget-content{font-size: 16px;}
+body.mobile .ui-menu.ui-widget-content ul{width:300px; background-color: rgba(0,0,0,0.75); border-radius:5px; z-index: 9999;}
+body.mobile .ui-menu.ui-widget-content > ul > a {color: #fff; line-height: 2; background: url(images/ui-icons_222222_256x240.png) no-repeat ;}
+body.mobile .ui-menu.ui-widget-content ul a {color: #fff; line-height: 2;}
+body.mobile .ui-state-active,
+body.mobile .ui-widget-content .ui-state-active,
+body.mobile .ui-widget-header .ui-state-active{background-color: transparent;}
+
+/*=======================*/
+/*FOOTER*/
+/*=======================*/
+body.nofyosh.mobile .ny-footer-mobile{padding: 0 2%;}
+body.nofyosh.mobile .container.footer{padding: 0 2%;}
+body.nofyosh.mobile .footer-sidebar .widget{margin-right: 0;}
+
+/*===========================*/
+/*Popups*/
+/*===========================*/
+body.nofyosh.mobile .popup_inr{border: none;}
+body.nofyosh.mobile .popup_inr .popup_hdr{background: none; color: #000;}
+body.nofyosh.mobile .popup_inr .popup_fld{padding-top: 0;}
+
+
+body.nofyosh.mobile .popup_inr ul.wpuf-form li{padding: 0;}
+body.nofyosh.mobile .popup_inr ul.wpuf-form li .wpuf-fields{width:100%; float: none;}
+body.nofyosh.mobile .popup_inr ul.wpuf-form li .wpuf-label{display: none;}
+
+
+body.nofyosh.mobile .popup_inr input[type="text"],
+body.nofyosh.mobile .popup_inr input[type="email"],
+body.nofyosh.mobile .popup_inr input[type="password"]{background: none; box-shadow: none; width: 100%;}
+
+/*===========================*/
+/*Registration Popup*/
+/*===========================*/
+body.nofyosh.mobile #registerform ul.wpuf-form li.wpuf-el.mailing-list{display: block; width: 100%;}
+body.nofyosh.mobile .popup_inr #registerform ul.wpuf-form li.takanon{float: right; width:auto;}
+body.nofyosh.mobile .popup_inr #registerform ul.wpuf-form li.takanon + li{float: left; width:100px; margin-top: 3px;}
+body.nofyosh.mobile .popup_inr #registerform input.auto-width[type="submit"]{width:100%;}
+
+/*=======================*/
+/*ARCHIVE*/
+/*=======================*/
+body.mobile #searchform{padding-top: 5px;}
+.archive-searchform-cntr.mobile{width: 100%; padding: 0; margin: 0 auto 10px; float: none;}
+.archive-searchform-cntr.mobile .ny-row{overflow: hidden;}
+.archive-searchform-cntr.mobile .ny-row.ny-row-select-cntr{overflow: inherit; height: 30px; font-size: 17px}
+.archive-searchform-cntr.mobile .ny-row.price-slider-cntr{padding: 20px 3%; overflow: hidden;}
+
+body.mobile #price-slider-mobile{width: 96%;}
+body.mobile .noUi-horizontal{height: 9px;}
+body.mobile .noUi-connect{background-color: #9E9E9E;}
+body.mobile .noUi-horizontal .noUi-handle{top: -10px;}
+body.mobile .noUi-handle{border:none; border-radius: 0; background-color:transparent; box-shadow:none; width: 20px;}
+body.mobile .noUi-handle:before,body.mobile .noUi-handle:after{width: 0;}
+body.mobile .noUi-handle{border:none; border-radius: 0; background-color:transparent; box-shadow:none; }
+body.mobile .noUi-handle.noUi-handle-lower{background: url(../images/rating_left.png) 0 0 no-repeat #fff;;}
+body.mobile .noUi-handle.noUi-handle-upper{background: url(../images/rating_rght.png) 0 0 no-repeat #fff;;}
+
+
+body.mobile #price-display-cntr{padding-top: 14px; color: #808285; font-size: 18px;}
+
+form.archive .archive-searchform-cntr.mobile .searchform-input-cntr{height: auto; width:46%;}
+
+form.archive .archive-searchform-cntr.mobile .searchform-input-cntr.no-inline{float: none; display: block; width: 100%; padding: 10px 4px;}
+form.archive .archive-searchform-cntr.mobile .searchform-input-cntr.no-inline label{width:80px; }
+form.archive .archive-searchform-cntr.mobile .searchform-input-cntr.no-inline input.hasDatepicker{ width: 150px; padding-right: 10px;}
+form.archive .archive-searchform-cntr.mobile .searchform-input-cntr.no-inline .selectboxit-container{width:35%;}
+form.archive .archive-searchform-cntr.mobile .searhform-submit-cntr{float: none; margin: 0 auto;}
+body.nofyosh #ui-datepicker-div{width:258px; left:28px !important;}
+body.nofyosh .ui-state-default,
+body.nofyosh .ui-widget-content .ui-state-default,
+body.nofyosh .ui-widget-header .ui-state-default{padding: 8px 10px;}
+
+#mobile-search-toggle{display: none;}
+#mobile-search-toggle .searchform-input-cntr, #mobile-search-toggle .datepicker{ font-size: 18px; }
+#mobile-search-toggle .searchform-input-cntr{ margin: 0; padding-right: 1em; }
+#mobile-search-toggle .searchform-input-cntr:nth-of-type(2n+1){ background-color: #F2F2F2 }
+#mobile-search-toggle .datepicker{ background-size: 1em; }
+
+
+#search-inputs-toggle-cntr{width:20%;}
+#search-inputs-toggle-cntr button{width:100%; color:#fff; background: #888 url(../images/filter_pic.png) no-repeat 10px center; background-size: .8em; text-align: right; padding-right:7px; }
+@media only screen and (max-width: 350px){
+
+	#search-inputs-toggle-cntr button{
+		background-position: 5px center;
+		padding-right: 5px;
+	}
+
+}
+
+body.mobile form.archive .searchform-input-cntr.searhform-submit-cntr{width:100%; overflow: hidden; margin-top: 5px; text-align: center;}
+
+
+.archive-property-cntr{padding: 6px 6px; border-top: solid 1px #cbcbcb; overflow: hidden; background: linear-gradient(to top,#f5f5f5, #fff);}
+.archive-property-cntr .thumb-cntr{float: right; padding-left: 6px; }
+.archive-property-cntr .thumb-cntr img{padding: 2px; border: solid 1px #cbcbcb; border-radius: 3px; width: 100px; height: 67px;}
+.archive-property-cntr .info{}
+.archive-property-cntr .info h4{color:#0095da; font-size: 22px; height: 24px; overflow: hidden;}
+.archive-property-cntr .info .description{height: 5px;}
+.archive-property-cntr .details{float: right; width: 100px; color:#58595b;}
+.archive-property-cntr .details img{width: 20px; vertical-align: sub;}
+.archive-property-cntr .price{float: left; width: 79px; color:red; font-size: 28px;text-align:left; margin-top:19px; color:#F58220; font-weight: bold;}
+.archive-property-cntr .price span{color:#F58220; font-size: 22px;}
+
+
+form.archive.post-type-zimer .archive-searchform-cntr.mobile .searchform-input-cntr:not(.searhform-submit-cntr){width:36%;}
+form.archive.post-type-zimer .archive-searchform-cntr.mobile .hasDatepicker{font-size: 14px;}
+form.archive.post-type-zimer .archive-searchform-cntr.mobile #mobile-search-toggle .searchform-input-cntr{width:auto;}
+body.mobile form.archive .searchform-input-cntr.searhform-submit-cntr input{float: left;}
+
+/*zimer only*/
+body.mobile form.archive:not(.post-type-zimer) .ny-row-select-cntr .ny-select-cntr:first-child{float: right;}
+body.mobile form.archive:not(.post-type-zimer) .ny-row-select-cntr .ny-select-cntr:nth-child(2){float: left;}
+
+/*=======================*/
+/*SINGLE*/
+/*=======================*/
+.single-title h3{font-weight: bold;}
+#single-zimer-reservation-cntr.mobile{display: none;}
+#single-property-cntr .ny-row{padding:3px; overflow: hidden;}
+
+body.nofyosh.mobile .doubleSlider-1{min-height: 138px; height: auto; margin-bottom: 5px;}
+body.nofyosh.mobile .doubleSlider-1 .slider .item{width: 100%;}
+body.mobile .doubleSlider-1 .slider .item img{width: 100%; /*height: auto;*/}
+body.mobile #single-property-cntr .ny-row.property-btns-cntr{padding: 0 8px; margin: 8px 0;}
+body.mobile #single-property-cntr .price{width: 48%; border: solid 1px #ccc; padding: 17px; color: #0095da; border-radius: 5px; background-color: #eeeded;}
+body.mobile #single-property-cntr .price span{font-size: 30px;}
+
+body.mobile #single-property-cntr .buttons-cntr{width:48%;}
+body.mobile #single-property-cntr .buttons-cntr #btn-go-to-reservation{margin-top: 10px;}
+
+/*Tabs*/
+body.mobile #single-property-cntr .artcontent_right{margin-top: 0;}
+body.mobile #single-property-cntr .menu li a{min-width: 0; padding-left: 10px; padding-right: 10px; font-size: 16px; margin-left: 10px;}
+#tab-checkboxes ul{float: right;}
+#tab-checkboxes ul:first-child{margin-left: 35px;}
+body.mobile #tab-details .type_section{border:none; padding-left: 30%;}
+
+
+/*Owner info*/
+body.mobile #owner-info{margin-bottom: 8px;}
+body.mobile #owner-info .ny-toggle-btn{padding: 12px 10px 10px; border-bottom: 1px solid #cccccc; }
+body.mobile #owner-info .ny-toggle-content{padding: 10px;}
+body.mobile #avatar-and-name{padding-bottom: 5px;}
+body.mobile #avatar-and-name img{width: 30%;}
+body.mobile #owner-info .owner-name{font-size: 24px; font-weight: bold;}
+
+
+/*Rating*/
+body.mobile .rating_hdr{text-align: center; padding: 0; padding-top: 5px;}
+body.mobile .rating_hdr .header-top{margin-bottom: 0; font-size: 24px;}
+
+/*Availabilty*/
+#single-zimer-reservation-cntr .single-title{overflow: hidden; padding: 0 8px 6px;}
+#single-zimer-reservation-cntr .single-title img{float: right; width: 60px; height: auto; margin-left: 10px; padding: 2px; border: 1px solid #c3c2c2;}
+#single-zimer-reservation-cntr .single-title .title-text-cntr{float: right; overflow: hidden;}
+#single-zimer-reservation-cntr .single-title .title-text-cntr h3{font-weight: bold;}
+
+
+#single-zimer-reservation-cntr #reservation-form > div {
+	background: #d6d6d6;
+	background: -moz-linear-gradient(top, #d6d6d6 0%, #dadada 30%, #e7e7e9 75%, #e9eaec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6d6d6), color-stop(30%,#dadada), color-stop(75%,#e7e7e9), color-stop(100%,#e9eaec));
+	background: -webkit-linear-gradient(top, #d6d6d6 0%,#dadada 30%,#e7e7e9 75%,#e9eaec 100%);
+	background: -o-linear-gradient(top, #d6d6d6 0%,#dadada 30%,#e7e7e9 75%,#e9eaec 100%);
+	background: -ms-linear-gradient(top, #d6d6d6 0%,#dadada 30%,#e7e7e9 75%,#e9eaec 100%);
+	background: linear-gradient(to bottom, #d6d6d6 0%,#dadada 30%,#e7e7e9 75%,#e9eaec 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#e9eaec',GradientType=0 );
+	padding: 4px 13px 4px 4px;
+	color: #000;
+	font-size: 20px;
+	height: 39px;
+}
+
+#single-zimer-reservation-cntr .availability > div > *{vertical-align: -webkit-baseline-middle; margin-left: 4px;}
+#single-zimer-reservation-cntr label.date-picker-mobile{background: url(../images/mobile/calendar-blue.png) no-repeat center center; width: 29px; height: 29px;}
+#single-zimer-reservation-cntr label.lbl-select{width: 118px;}
+#single-zimer-reservation-cntr input.datepicker.hasDatepicker{border: none;background: none;}
+
+#single-zimer-reservation-cntr .nis_part_hdr span{display: inline; font-size: inherit;}
+
+/*=======================*/
+/*PERSONAL AREA*/
+/*=======================*/
+body.mobile .faq_inr{margin-top: 4px;}
+body.mobile .filter-and-content-cntr{padding: 0;}
+body.mobile .ny-management-filter-cntr{float: left;}
+body.mobile .ny-management-item{box-shadow: 0px 0px 1px #888888;}
+body.mobile #personal-area-page-title{padding: 4px 1%; overflow: hidden; margin-bottom: 16px;}
+body.mobile #personal-area-page-title .page-title{float: right; font-size: 18px; line-height: 34px;}
+body.mobile #personal-area-page-title .ny-management-filter-cntr{float: left; margin-bottom: 0;}
+
+
+
+body.mobile .ny-management-item{width: 96%; margin: 0 auto 10px; padding: 0 2%;}
+body.mobile .ny-management-item .ny-row{overflow: hidden; padding: 3px 0;}
+body.mobile .ny-management-item .ny-row img{float: right; width: 20%;}
+body.mobile .ny-management-item .ny-row .user-cntr{float: right; width: 52%; border-left: solid 1px #ddd; margin-left: 3%}
+body.mobile .ny-management-item .ny-row .price-cntr{float: right; width: 25%;}
+
+/* Reservation Management*/
+body.mobile .ny-management-item > div{float: none; width: auto; border-bottom: solid 1px rgba(221,221,221,0.75); margin: 0 auto; border-width: 0 0 1px; padding: 8px 0; overflow: hidden;}
+body.mobile .pending-button{width: auto; display: inline-block; padding: 0 8px;}
+body.mobile .reservation-action{display: inline-block;}
+body.mobile .people-num-details{display: none;}
+body.mobile .ny-management-item .price{border:none; float: left; width: auto; border-right: solid 1px rgba(221,221,221,0.75); margin-top: 8px; padding:4px;}
+body.mobile .ny-management-item .price span{color: inherit;}
+body.mobile .ny-management-item .israeli-box{float: right;width: auto; border: none;}
+
+
+body.mobile .ny-management-item .datetext{font-size: 14px;}
+
+/* Mail Inbox */
+/*body.mobile .container{width:96%;}*/
+body.mobile .mail_outr{padding: 0;}
+body.mobile .wrap{padding: 0 2%;}
+.ny-inbox-item{border: solid 1px #ddd; border-radius: 4px; padding: 4px; margin-bottom: 8px; height: 88px;}
+.ny-inbox-item a{display: block; height: 40px; overflow: hidden;}
+body.mobile .inbox-message-details{display: inline;}
+
+
+/* Mail Inbox */
+body.mobile #referenceSendNewDialogMessage {border: solid 1px #ddd; }
+body.mobile #referenceSendNewDialogMessage textarea{border-width: 0 0 1px;}
+body.mobile #referenceSendNewDialogMessage .buttons-cntr{padding: 5px; overflow: hidden;}
+body.mobile #referenceSendNewDialogMessage .buttons-cntr input[type="submit"]{float: left; width: auto;}
+body.mobile .message-info {}
+body.mobile .message-details {display: inline-block;}
+body.nofyosh.mobile .ny-dialog-message-text{width: 18em;}
+body.nofyosh.mobile .ny-dialog-message-text .private-message-text{padding: 0.5em;}
+
+
+
+body.mobile .ny-sender-current-user .message-info {text-align: right; padding-right: 0;}
+body.mobile .ny-sender-other-user .message-info {text-align: left; padding-left: 0;}
+
+
+
+
+
+
+
+
+
