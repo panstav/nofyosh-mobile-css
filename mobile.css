@@ -267,7 +267,7 @@ body.mobile .rating_hdr .header-top{margin-bottom: 0; font-size: 24px;}
 
 /*Availabilty*/
 #single-zimer-reservation-cntr .single-title{overflow: hidden; padding: 0 8px 6px;}
-#single-zimer-reservation-cntr .single-title img{float: right; width: 60px; height: auto; margin-left: 10px; padding: 2px; border: 1px solid #c3c2c2;}
+#single-zimer-reservation-cntr .single-title img{float: right; width: 6em; height: auto; margin-left: 10px; padding: 2px; border: 1px solid #c3c2c2;}
 #single-zimer-reservation-cntr .single-title .title-text-cntr{float: right; overflow: hidden;}
 #single-zimer-reservation-cntr .single-title .title-text-cntr h3{font-weight: bold;}
 
