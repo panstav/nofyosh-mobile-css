@@ -176,8 +176,9 @@ body.nofyosh .ui-widget-header .ui-state-default{padding: 8px 10px;}
 
 #mobile-search-toggle{display: none;}
 #mobile-search-toggle .searchform-input-cntr, #mobile-search-toggle .datepicker{ font-size: 18px; }
-#mobile-search-toggle .searchform-input-cntr{ margin: 0; padding-right: 1em; }
+#mobile-search-toggle .searchform-input-cntr{ margin: 0; padding-right: 1em; border-top: 1px solid #E2E2E2;}
 #mobile-search-toggle .searchform-input-cntr:nth-of-type(2n+1){ background-color: #F2F2F2 }
+#mobile-search-toggle .searchform-input-cntr:last-of-type{ border-bottom: 1px solid #E2E2E2; }
 #mobile-search-toggle .datepicker{ background-size: 1em; }
 
 
@@ -243,13 +244,14 @@ body.mobile #tab-checkboxes ul{width: 50%;}
 body.mobile #tab-checkboxes ul li{padding: 3px 0;}
 body.mobile #tab-checkboxes ul li img {margin-left: 0.5em;}
 body.mobile #tab-details .type_section{border:none; padding-left: 30%;}
+body.mobile #tab-details .type_section .room_type, body.mobile #tab-details .type_section .room_type_right{ font-size: 1.2em }
 
 
 /*Owner info*/
 body.mobile #owner-info{margin-bottom: 8px;}
 
 body.mobile #owner-info .ny-toggle-btn{padding: 12px 10px 10px; border-bottom: 1px solid #cccccc; background-image: none;}
-body.mobile #owner-info .ny-toggle-btn:after{content: ""; width: 15px; height: 15px; margin-right: 1em; display: inline-block; background-repeat: no-repeat; background-position: center; background-size: contain; vertical-align: text-top}
+body.mobile #owner-info .ny-toggle-btn:after{content: ""; width: 15px; height: 15px; margin-right: .1em; display: inline-block; background-repeat: no-repeat; background-position: center; background-size: contain; vertical-align: text-top}
 body.mobile #owner-info .ny-toggle-btn.ny-toggle-close:after{background-image: url("../images/mobile/left-arrow.png")}
 body.mobile #owner-info .ny-toggle-btn.ny-toggle-open:after{background-image: url("../images/mobile/down-arrow.png")}
 
