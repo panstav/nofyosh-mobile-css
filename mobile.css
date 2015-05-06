@@ -140,6 +140,22 @@ body.nofyosh.mobile .popup_inr #registerform ul.wpuf-form li.takanon{float: righ
 body.nofyosh.mobile .popup_inr #registerform ul.wpuf-form li.takanon + li{float: left; width:100px; margin-top: 3px;}
 body.nofyosh.mobile .popup_inr #registerform input.auto-width[type="submit"]{width:100%;}
 
+body.nofyosh.mobile .newsociallogins{padding:20px 17px;}
+body.nofyosh.mobile .newsociallogins a{width: 100%;}
+body.nofyosh.mobile .newsociallogins .fb_btn{
+	background-image: url(../images/login_with_facebook.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+
+	height: 52px;
+	width: 100%;
+
+	line-height: 2.5em;
+	padding: 0;
+}
+
+
 /*=======================*/
 /*ARCHIVE*/
 /*=======================*/
