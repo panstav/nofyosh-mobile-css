@@ -1,0 +1,22 @@
+.property-btns-cntr #open-message-to-owner-popup:before{
+	content: "";
+	display: inline-block;
+
+	background-image: url('http://nofyosh.co.il/wp-content/themes/nofyosh/images/phn_icon_shkf.png');
+	width: 20px;
+	height: 32px;
+	margin-left: 6px;
+	margin-right: -8px;
+
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	vertical-align: top;
+}
+
+@media screen and (min-width: 450px){
+	.property-btns-cntr #open-message-to-owner-popup:before{
+		width: 28px;
+		margin-right: 0px;
+	}
+}
