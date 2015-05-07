@@ -353,7 +353,7 @@ body.mobile .inbox-message-details{display: inline;}
 /* Mail Inbox */
 body.mobile #referenceSendNewDialogMessage {border: solid 1px #ddd; }
 body.mobile #referenceSendNewDialogMessage textarea{border-width: 0 0 1px;}
-body.mobile #referenceSendNewDialogMessage .buttons-cntr{padding: 5px; overflow: hidden;}
+body.mobile #referenceSendNewDialogMessage .buttons-cntr{padding: 10px; overflow: hidden;}
 body.mobile #referenceSendNewDialogMessage .buttons-cntr input[type="submit"]{float: left; width: auto;}
 body.mobile .message-info {}
 body.mobile .message-details {display: inline-block;}
