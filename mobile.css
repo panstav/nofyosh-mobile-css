@@ -245,6 +245,12 @@ body.mobile form.archive:not(.post-type-zimer) .ny-row-select-cntr .ny-select-cn
 body.nofyosh.mobile .doubleSlider-1{min-height: 138px; height: auto; margin-bottom: 5px;}
 body.nofyosh.mobile .doubleSlider-1 .slider .item{width: 100%;}
 body.mobile .doubleSlider-1 .slider .item img{width: 100%; /*height: auto;*/}
+
+/*message-to-owner*/
+body.mobile .property-btns-cntr #open-message-to-owner-popup{text-align: center; position: relative;}
+body.mobile .property-btns-cntr #open-message-to-owner-popup:before{ position: absolute; right: 0.2em; content: ""; display: inline-block; background-image: url('http://nofyosh.co.il/wp-content/themes/nofyosh/images/phn_icon_shkf.png'); width: 1.2em; height: 32px; margin-left: 6px; background-position: center; background-size: contain; background-repeat: no-repeat; vertical-align: top;}
+@media screen and (min-width: 450px){body.mobile .property-btns-cntr #open-message-to-owner-popup:before{width: 28px; margin-right: 0px;}}
+
 body.mobile #single-property-cntr .ny-row.property-btns-cntr{padding: 0 8px; margin: 8px 0;}
 body.mobile #single-property-cntr .price{width: 48%; border: solid 1px #ccc; padding: 15px 17px; color: #0095da; border-radius: 5px; background-color: #eeeded; font-size: 1.4em; font-weight: bold;}
 body.mobile #single-property-cntr .price span{font-size: 30px; display: inline-block; padding: 4px 0;}
