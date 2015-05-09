@@ -89,7 +89,7 @@ ul#logged-in-user-nav-mobile.ui-menu > li.ui-menu-item > a{ font-size: 14px; lin
 
 /*menus*/
 body.mobile .ui-menu.ui-widget-content{font-size: 16px;}
-body.mobile .ui-menu.ui-widget-content ul{width:300px; background-color: rgba(0,0,0,0.75); border-radius:5px; z-index: 9999; padding: 0;}
+body.mobile .ui-menu.ui-widget-content ul{width:300px; background-color: rgba(0,0,0,0.75); border-radius:5px; z-index: 9999999; padding: 0;}
 body.mobile .ui-menu.ui-widget-content ul:before{  content: ""; margin-top: -6px; position: absolute; left: 30px; border-style: solid; border-width: 0 5px 6px 5px; border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.75) rgba(0, 0, 0, 0);}
 
 body.mobile .ui-menu.ui-widget-content ul li{ padding: 2px; }
